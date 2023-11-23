@@ -10,7 +10,7 @@ sshenc.sh uses openssl under the hood, so you need to have that installed in you
 
 ## Install
 ```
-curl -O https://raw.githubusercontent.com/5im-0n/sshenc.sh/master/sshenc.sh
+curl -O https://raw.githubusercontent.com/MPRS-Labs/sshenc.sh/master/sshenc.sh
 chmod +x sshenc.sh
 ```
 
