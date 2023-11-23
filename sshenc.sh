@@ -72,7 +72,7 @@ case "$(uname -s 2>/dev/null)" in
         fi
     ;;
     *)
-        openssl_params='-pbkdf2 -iter 100000'
+        openssl_params='-md sha256'
 esac
 
 # --- retrieve ssh keys from github
